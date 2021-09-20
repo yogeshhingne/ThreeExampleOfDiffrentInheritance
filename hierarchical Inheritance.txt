@@ -1,0 +1,64 @@
+ 1. Example of single level inheritance 
+
+class Captain
+{
+void captainDetail()
+{
+System.out.println("I am captain");
+}
+}
+class IndianCaptain extends Captain
+{
+void captainDetail()
+{
+System.out.println("I am captain of Indian cricket team");
+}
+}
+
+2. Example of multilevel inheritance
+
+class India
+{
+void details()
+{
+System.out.println("I am Indian");
+}
+}
+class Maharashtra extends India 
+{
+void details()
+{
+System.out.println("I am Maharastrian");
+}
+}
+class Vidarbha extends Maharashtara
+{
+void details()
+{
+System.out.println("I am Vidarbhian");
+}
+}
+
+3. Example of herirchical inheritance
+
+class Mobile 
+{
+void features()
+{
+System.out.println("I am having calling feature");
+}
+}
+class Vivo extends Mobile
+{
+void features()
+{
+System.out.println("I am having good camera quality");
+}
+}
+class Nokia extends Mobile 
+{
+void features()
+{
+System.out.println("I am having good battery backup");
+}
+}
